@@ -1,0 +1,86 @@
+body
+{
+    margin: 0px;
+}
+
+.container-head
+{
+    border-top: 5px solid black;
+    background-color: aqua;
+    display: flex;
+}
+
+.container-head-img
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.container-head-h3
+{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: white;
+}
+
+.container-head-nav
+{
+    display: flex;
+    background-color: rgb(219, 215, 215);
+    justify-content: space-around;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.container-head-link
+{
+    font-size: 30px;
+    color: rgb(95, 86, 86);
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.container-head-a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+.container-head-a:hover
+{
+    color: blue;
+}
+
+.container-body
+{
+    float: left;
+    margin-left: 50px;
+}
+
+.container-body-right
+{
+    width: 250px;
+    height: 500px;
+    float: right;
+    margin-right: 80px;
+    border: 2px solid grey;
+    margin-top: 100px;
+    padding-left: 20px;
+}
+
+.container-body-right-heading
+{
+    margin-left: 40px;
+    color: rgb(41, 41, 226);
+}
+
+.container-body-right-content
+{
+    color: rgb(192, 123, 33);
+}
+
+#button
+{
+    background-color: yellow;
+}
